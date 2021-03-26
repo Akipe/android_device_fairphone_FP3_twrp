@@ -83,6 +83,7 @@ TW_USE_TOOLBOX := true
 TW_OVERRIDE_SYSTEM_PROPS := "ro.build.fingerprint;ro.build.version.incremental"
 PRODUCT_EXTRA_RECOVERY_KEYS := $(DEVICE_PATH)/releasekey
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file
+TW_HAS_EDL_MODE := true
 
 # Debug flags
 #TWRP_INCLUDE_LOGCAT := true
