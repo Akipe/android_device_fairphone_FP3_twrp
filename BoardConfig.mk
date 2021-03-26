@@ -85,6 +85,7 @@ PRODUCT_EXTRA_RECOVERY_KEYS := $(DEVICE_PATH)/releasekey
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file
 TW_HAS_EDL_MODE := true
 TW_MAX_BRIGHTNESS := 255
+TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 
 # Debug flags
 #TWRP_INCLUDE_LOGCAT := true
